@@ -1,4 +1,4 @@
-# ConvNext-UNet-X2&X4 for Short-Term Rainfall Radar Echo Extrapolation
+# ConvNext-UNet-X2&X4 for Short-Term Rainfall Radar Echo Extrapolation（Nowcasting）
 
 This project aims to use the ConvNext-UNet model for radar echo nowcasting, specifically for short-term heavy rainfall prediction. The project provides X2 and X4 scale models.
 
