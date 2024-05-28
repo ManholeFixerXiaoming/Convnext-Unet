@@ -1,7 +1,7 @@
 # Convnext-Unet
 ConvNext-UNet-X2X4 Rainfall Echo Extrapolation（Nowcasting）
+The purpose of this project is to use ConvNext-UNet model to forecast radar echoes, especially for short periods of heavy rainfall. This project provides two different scale models, X2 and X4.
 
-本项目旨在使用ConvNext-UNet模型对雷达回波进行临近预报，特别是短时强降雨的预报。本项目提供了X2和X4两种不同尺度的模型。
 
 Features
 High Accuracy: Combines the advantages of ConvNext and UNet models to improve the accuracy of radar echo extrapolation.
