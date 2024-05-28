@@ -1,14 +1,27 @@
-# Convnext-Unet
-ConvNext-UNet-X2X4 Rainfall Echo Extrapolation（Nowcasting）
-The purpose of this project is to use ConvNext-UNet model to forecast radar echoes, especially for short periods of heavy rainfall. This project provides two different scale models, X2 and X4.
+# ConvNext-UNet-X2&X4 for Short-Term Rainfall Radar Echo Extrapolation
+
+This project aims to use the ConvNext-UNet model for radar echo nowcasting, specifically for short-term heavy rainfall prediction. The project provides X2 and X4 scale models.
+
+## Features
+
+- **High Accuracy**: Combines the advantages of ConvNext and UNet models to improve the accuracy of radar echo extrapolation.
+- **Multi-Scale**: Provides X2 and X4 scale models to suit different application scenarios.
+- **Ease of Use**: Simple interface design for easy and quick adoption.
+
+## Prerequisites
+
+Please see the [ConvNeXt repository](https://github.com/facebookresearch/ConvNeXt) for the required libraries and dependencies.
+
+## Usage
+
+trainBN_convnext_X2.py is the main file, where you can load both the X2 and X4 models. The traindata.7z file contains a portion of the training data for testing the models.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+The ConvNext layers used in this project are sourced from [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) by Facebook Research.
 
 
-Features
-High Accuracy: Combines the advantages of ConvNext and UNet models to improve the accuracy of radar echo extrapolation.
-Multi-Scale: Provides X2 and X4 scale models to suit different application scenarios.
-Ease of Use: Simple interface design for easy and quick adoption.
-Usage
-Please refer to the Usage Guide for installation and usage instructions.
-
-License
-This project is licensed under the MIT License.
