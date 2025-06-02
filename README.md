@@ -19,6 +19,8 @@ trainBN_convnext_X2.py is the main file, where you can load both the X2 and X4 m
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+If this code is useful for your research, please cite:
+"Enhanced rainfall nowcasting using deep learning models incorporating polarimetric radar data."
 
 ## Acknowledgments
 
